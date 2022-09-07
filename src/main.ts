@@ -2,8 +2,15 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import ViewUI from 'view-design';
+import 'view-design/dist/styles/iview.css';
+import VueCompositionAPI from '@vue/composition-api'
+
 
 Vue.config.productionTip = false
+
+Vue.use(VueCompositionAPI)
+Vue.use(ViewUI);
 
 new Vue({
   router,
