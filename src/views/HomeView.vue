@@ -87,14 +87,6 @@ export default defineComponent({
   name: "WatchEffect",
 
   setup() {
-    /*     let padLeft = (padding: number | string, input: string) => {
-      if (typeof padding === "number") {
-        return new Array(padding + 1).join(" ") + input;
-      }
-      return padding + input;
-    };
- */
-
     let msg: string = "todoList";
     //表头
     let columns: column[] = reactive([]);
